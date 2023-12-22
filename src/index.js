@@ -1,3 +1,6 @@
-console.log("hello");
+import Styles from "./styles.css";
 
-alert("world");
+console.log("Todo...");
+console.log("Provide a title");
+
+alert("Follow instructions in the console");
