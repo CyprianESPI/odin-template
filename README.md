@@ -15,3 +15,5 @@
 `npm run deploy`
 
 Website is live at https://username.github.io/reponame/
+
+https://CyprianESPI.github.io/odin-template/
