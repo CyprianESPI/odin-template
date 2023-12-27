@@ -4,9 +4,13 @@
 
 ### Install
 
-First make sure NVM is installed
+First make sure Node Version Manager is installed on your system.
 
-`npm i`
+https://github.com/nvm-sh/nvm
+
+Once NVM is installed, you can use Node Package Manager to complete the installation and run other commands.
+
+`npm i` or `npm install` (they are the same)
 
 ### Build
 
@@ -31,3 +35,9 @@ https://CyprianESPI.github.io/odin-template/
 #### Fix deploy in case of rebase
 
 `git push origin git subtree split --prefix 'dist' main:gh-pages --force`
+
+---
+
+**NOTE**
+
+`npm run ...` commands are described in the `package.json` file, under the `scripts` tag.
