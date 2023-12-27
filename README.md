@@ -36,6 +36,8 @@ https://CyprianESPI.github.io/odin-template/
 
 `git push origin git subtree split --prefix 'dist' main:gh-pages --force`
 
+Another way to fix it it to remove other gh-pages branches from the Github webpage interface
+
 ---
 
 **NOTE**
