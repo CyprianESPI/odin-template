@@ -12,6 +12,10 @@ First make sure NVM is installed
 
 `npm run build`
 
+### Test
+
+`jest`
+
 ### Run locally
 
 `npm run watch`
