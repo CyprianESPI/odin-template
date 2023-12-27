@@ -1,6 +1,21 @@
 import Styles from "./styles.css";
 
-console.log("Todo...");
-console.log("Provide a title");
+// ================= //
+// DOM interaction
+// ================= //
+const MAIN = document.querySelector("main");
 
-alert("Follow instructions in the console");
+// ================= //
+// Main
+// ================= //
+function main() {
+    console.log("Initialazing...");
+
+    // Get url param location
+    const params = new URLSearchParams(document.location.search);
+    console.log(params);
+
+    console.log("Initialazed!");
+}
+
+main();
